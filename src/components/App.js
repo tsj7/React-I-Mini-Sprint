@@ -10,6 +10,7 @@ class App extends Component {
     };
   }
   render() {
+    console.log("movies");
     return (
       <div>
         <MoviesList movies={this.state.movies} />
