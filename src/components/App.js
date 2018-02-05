@@ -1,7 +1,6 @@
-import React from 'react';
-import Component from 'react';
+import React, { Component } from 'react';
 import Render from 'react-dom';
-import MoviesList from 'MoviesList';
+import MoviesList from './MoviesList';
 
 class App extends Component {
   constructor() {
@@ -13,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <MoviesList movies={this.state.movies}/>
+        <MoviesList movies={this.state.movies} />
       </div>
     )
   }
